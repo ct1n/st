@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char font[] = "DejaVu Sans Mono:pixelsize=13:antialias=true:autohint=true";
 static int borderpx = 2;
 #define histsize 2000
 
@@ -158,8 +158,8 @@ static MouseShortcut mshortcuts[] = {
 
 static MouseKey mkeys[] = {
 	/* button               mask            function        argument */
-	{ Button4,              ShiftMask,      kscrollup,      {.i =  1} },
-	{ Button5,              ShiftMask,      kscrolldown,    {.i =  1} },
+	{ Button4,              ShiftMask,      kscrollup,      {.i =  3} },
+	{ Button5,              ShiftMask,      kscrolldown,    {.i =  3} },
 };
 
 /* Internal keyboard shortcuts. */
